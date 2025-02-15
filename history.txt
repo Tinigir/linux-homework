@@ -1,0 +1,124 @@
+    1  npm i -g gulp rimraf npm-check-updates
+    2  npm config set package-lock false
+    3  ncu
+    4  ncu -a
+    5  ncu -u
+    6  ncu
+    7  mcu
+    8  ncu
+    9  npm i
+   10  gulp
+   11  mkdir git_intro
+   12  cd git_intro
+   13  git init
+   14  cp /n/IT/Github/ITherou.jpg /n/IT/Github/git_intro/
+   15  git add ITherou.jpg 
+   16  git commit -m "Image added"
+   17  git config --global user.name Nykyta_Mielkov
+   18  git config --global user.email "nikitajohnson07.02@gmail.com"
+   19  git config --global user.name Mykyta_Mielkov
+   20  git commit -m "Image added"
+   21  git remote add original https://github.com/Tinigir/git-intro.git
+   22  git push -u original master 
+   23  git remote add original https://github.com/Tinigir/gitIntro.git
+   24  gitremote remove original
+   25  git remote remove original
+   26  git remote set-url original https://github.com/Tinigir/git-intro.git
+   27  git remote set-url original https://github.com/Tinigir/git_intro.git
+   28  git remote set-url origin https://github.com/Tinigir/git_intro.git
+   29  git remote origin https://github.com/Tinigir/git_intro.git
+   30  git remote -v
+   31  git remote add origin https://github.com/Tinigir/git_intro.git
+   32  git push -u origin master
+   33  clear
+   34  mkdir git_intro
+   35  cd git_intro
+   36  git init
+   37  cp /n/IT/Github/ITherou.jpg /n/IT/Github/git_intro/
+   38  git add ITherou.jpg 
+   39  git comit -m "Added an image"
+   40  git commit -m "Added an image"
+   41  git remote add origin https://github.com/Tinigir/git_intro
+   42  git branch -M master 
+   43  git push -u origin master
+   44  git pull original master --allow-unrelated-histories 
+   45  git pull origin master --allow-unrelated-histories 
+   46  git add .
+   47  git commit -m "Updated files after pull"
+   48  git push origin master 
+   49  cd /n/IT/Github/
+   50  mkdir git-branch
+   51  cd git-branch/
+   52  git init
+   53  git chekout -b gitignore
+   54  git checkout -b gitignore
+   55  touch .gitignore
+   56  ### JetBrains template
+   57  ##  git config --global core.excludesfile .gitignore
+   58  ###
+   59  # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+   60  # read 
+   61  /src/main/resources/application.yml
+   62  *.iml
+   63  *.json
+   64  .idea/*
+   65  .idea/
+   66  out/
+   67  debug/
+   68  ## Plugin-specific files:
+   69  # IntelliJ
+   70  /out/
+   71  # mpeltonen/sbt-idea plugin
+   72  .idea_modules/
+   73  *.class
+   74  *.jar
+   75  *.war
+   76  *.ear
+   77  *.tmp
+   78  *.exe
+   79  thumbs.db
+   80  .DS_Store
+   81  *.log
+   82  test/
+   83  target/generated-sources/
+   84  target/
+   85  /.classpath
+   86  /.project
+   87  .settings/
+   88  #x-code
+   89  *.xcodeproj
+   90  git "*.log" > .gitignore
+   91  echo  "*.log" > .gitignore
+   92  git add .gitignore 
+   93  git commit -m "Add .gitignore file"
+   94  git remote add origin https://github.com/Tinigir/git-branch.git
+   95  git push -u origin gitignore
+   96  cd git_intro
+   97  cd git_intro
+   98  git status
+   99  git init
+  100  git add .
+  101  git add .
+  102  git status
+  103  git commit -m "initial commit"
+  104  git branch -M main
+  105  git remote add origin https://github.com/Tinigir/it-career-hub-final-project.git
+  106  git push  origin main
+  107  git status
+  108  git clone https://github.com/Tingir/linux-homework.git
+  109  git clone https://github.com/Tinigir/linux-homework
+  110  cd linux-homework/
+  111  git checkout -b feature
+  112  nano README.md 
+  113  touch .gitignore
+  114  nano .gitignore 
+  115  git add .gitignore
+  116  git commit -m "Added .gitignore"
+  117  git config --global core.autocrlf true
+  118  git push origin feature
+  119  git commit --amend -m "Added README description and updated .gitignore (amend)"
+  120  git push origin feature --force
+  121  git checkout main
+  122  git merge feature
+  123  git push origin main
+  124  history > history.txt
